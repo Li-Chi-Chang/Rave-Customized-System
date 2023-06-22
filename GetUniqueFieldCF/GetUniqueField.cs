@@ -48,7 +48,7 @@ namespace CustomFunctions
             else return foundDatapoints[0];
         }
 
-        public object getAUniqueField(string fieldOID, string formOID, string folderOID, Subject currSub, bool activeOnly){
+        public DataPoint getAUniqueField(string fieldOID, string formOID, string folderOID, Subject currSub, bool activeOnly){
             /*
                 Name: Get_A_Unique_Field
                 This CF should be used at(EC check/EC action/Derivation/Supportive CF): Supportive CF (embedded version)
